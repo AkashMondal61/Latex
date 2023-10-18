@@ -1,0 +1,10 @@
+
+    \begin{conf-abstract}[]
+        {\textbf{Radar Remote Sensing Image Retrieval Method using Fusion of Handcrafted and Deep Features}}
+        {\textit{Greeshma Kommineni$^{1}$, Naushad Dr Varish$^{2}$}}
+        {$^{1}$SRM UNIVERSITY AP AMARAVATI $\bullet$ $^{2}$KLEF Guntur}
+        {\texttt{greeshmakommineni@srmap.edu.in, naushad.cs88@gmail.com}}
+        \indexauthors{Kommineni!Greeshma, Varish!Naushad Dr}
+        {In this paper, a novel feature extraction method based on deep and handcrafted features is proposed for radar remote sensing image retrieval. The main purpose is to capture the low-level and high-level image characteristics to enhance the representation of visual patterns. Initially, we apply a CNN to the RGB color image, which extracts high-level features and creates a feature descriptor known as FVCNN with a dimension of 128. We further divide the RGB image into its red (R), green (G), and blue (B) components to complement the CNN-based features. Then, to find patterns within each component, we use sparse local ternary pattern (LTP) operators in diagonal and (vertical, horizontal) directions. The LTP-based features are then combined to create an additional feature descriptor known as the ternary feature descriptor (FVT), which is then used to create histograms. If the FVT has a high dimensionality, we use Principal Component Analysis (PCA) to reduce it to only the top 128 features. The final feature descriptor (FVFinal), with a dimension of 256, is created by combining the feature descriptors FVCNN and FVT. In order to capture a wider range of visual characteristics, this feature fusion aims to take advantage of the complementary strengths of both CNN-based and handcrafted features. To choose the most effective metric for the retrieval process, this paper evaluates seven similarity metrics include Bray-Curtis, Canberra, Chebyshev, City block, Correlation, Cosine, Euclidean. The proposed method is validated by trials on the UCM dataset, which produced satisfactory retrieval outcomes.}
+    \end{conf-abstract}
+        
